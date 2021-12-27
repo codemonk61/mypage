@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+	<title>Practise</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Nunito:wght@300;400&display=swap');
+		body{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+		}
+		header{
+			width: 100vw;
+			height: 75px;
+			position:sticky;
+			top: 0;
+			left: 0;
+			background: greenyellow;
+			display: flex;
+			justify-content: space-around;
+		}
+	
+		nav ul li {
+			display: inline;
+			list-style: none;
+			line-height: 50px;
+			margin: auto 10px;
+			font-size: 20px;
+			text-transform: uppercase;
+		
+		}
+		 
+		.fas{
+			display: none;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.wrapper{
+			display: flex; 
+			justify-content: center;
+			margin-top: 10px;
+		}
+		 .wrapper .box{
+			width: 350px;
+			height: 450px;
+			background:lightblue;
+  			margin: 0 10px;
+		} 
+		img{
+			width: 100%;
+			height: 200px;
+		}
+		.card-title{
+			padding: 0 10px;
+		}
+		.card-desc{
+			padding: 0 10px;
+		}
+		.social-links{
+			text-align: center;
+		}
+		.social-links ul li{
+			list-style: none;
+			display: inline;
+			padding:0 10px;
+			font-size: 30px;
+		}
+		
+		@media (max-width: 768px)
+		{
+			.wrapper{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.wrapper .box{
+			margin: 10px 0;
+			width:100%;
+		}
+		.logo{
+			position: fixed;
+			top: 0;
+			left:20px;
+		} 
+		nav ul{
+			position: relative;
+		}
+		.fas{
+			display:block;
+			position: absolute;
+			top:24px;
+			right:20px;
+			font-size:30px;
+			font-weight: bold;
+
+		}
+		nav {
+			display: none;
+			position:relative;
+			top: 75px;
+			left: 0;
+			width: 100vw;
+			height: 50vh;
+			z-index: 9;
+			text-align: center;
+			background: yellowgreen;
+		}
+		nav ul li{
+			display: block;
+		}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		 <div class="logo">
+			<h1>LOGO</h1>
+		</div> 
+		<i class="fas fa-bars"></i>
+		<nav>
+			<ul>
+				
+				<li><a href="#">home</a></li>
+				<li><a href="#">services</a></li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">contact us</a></li>
+				<li><a href="#">portfolio</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<div class="wrapper">
+	<div class="box">
+		<div class="card-image">
+			<img src="img1.jpg">
+		</div>
+		<div class="card-title">
+			<h4>web-developer</h4>
+		</div>
+		<div class="card-desc">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			</p>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><i class="fab fa-facebook"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-twitter-square"></i></li>
+				<li><i class="fab fa-pinterest-square"></i></li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="card-image">
+			<img src="img1.jpg">
+		</div>
+		<div class="card-title">
+			<h4>web-developer</h4>
+		</div>
+		<div class="card-desc">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			</p>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><i class="fab fa-facebook"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-twitter-square"></i></li>
+				<li><i class="fab fa-pinterest-square"></i></li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="box">
+		<div class="card-image">
+			<img src="img1.jpg">
+		</div>
+		<div class="card-title">
+			<h4>web-developer</h4>
+		</div>
+		<div class="card-desc">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			</p>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><i class="fab fa-facebook"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-twitter-square"></i></li>
+				<li><i class="fab fa-pinterest-square"></i></li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="box">
+		<div class="card-image">
+			<img src="img1.jpg" >
+		</div>
+		<div class="card-title">
+			<h4>web-developer</h4>
+		</div>
+		<div class="card-desc">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			</p>
+		</div>
+		<div class="social-links">
+			<ul>
+				<li><i class="fab fa-facebook"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-twitter-square"></i></li>
+				<li><i class="fab fa-pinterest-square"></i></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+	$(".fas").on("click",function() {
+		$("nav").slideToggle();
+	});
+</script>
+</body>
+</html>
